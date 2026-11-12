@@ -25,6 +25,8 @@ Unreleased
 - {meth}`CliRunner.invoke` accepts a new `context_settings` argument, to allow
   passing settings to the {class}`Context` of the command which cannot be given as extra
   keyword arguments like `color`. {issue}`2110` {pr}`3896`
+- When `show_envvar` is enabled, error messages name the environment variable
+  derived from `auto_envvar_prefix`, matching the help output. {issue}`3914`
 
 ## Version 8.5.1
 
